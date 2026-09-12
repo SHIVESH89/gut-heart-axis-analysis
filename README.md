@@ -54,35 +54,23 @@ This repository contains an end-to-end data science and statistical pipeline ana
 ## 📂 Repository Structure
 
 ```text
-ai-gut-heart-axis/
+├── dataset/                         # Curated & cleaned American Gut Project data
+│   └── american_gut_clean.csv
 │
-├── 01_EDA_Visualization.ipynb       # Exploratory Data Analysis & visual discovery
-├── 02_Statistical_Analysis.ipynb    # Descriptive, inferential stats ($t$-test/ANOVA) & PCA
-├── README.md                        # Project documentation & findings
+├── plots/                           # Generated EDA figures (15 high-res PNGs)
+│   ├── 01_missing_values.png
+│   ├── 02_age_sex_distribution.png
+│   ├── 03_bmi_distribution.png
+│   └── ...
 │
-├── data/                            # Curated & cleaned American Gut Project data
-│   └── (processed datasets)
+├── visualizations/                  # High-resolution PNG figures (categorized by notebook)
+│   ├── 01_EDA_Visualizations/       # 15 EDA Plots (Distributions, Heatmaps, Scatter, Pairplots)
+│   └── 02_Statistical_Analysis/     # 12 Statistical & PCA Plots (t-tests, ANOVA, Scree, Biplots, 3D PCA)
 │
-├── plots/                           # Generated EDA figures & high-res charts
-│
-└── stats_output/                    # Exported statistical summaries & PCA models
-    ├── 01_histograms.png
-    ├── 02_boxplots.png
-    ├── 03_correlation_heatmap.png
-    ├── 04_scatter_matrix.png
-    ├── 05_categorical_bars.png
-    ├── 06_skew_kurtosis.png
-    ├── 07_ttest_bmi_sex.png
-    ├── 08_anova_bmi_diet.png
-    ├── 09_pca_scree.png
-    ├── 10_pca_biplot.png
-    ├── 11_pca_loadings.png
-    ├── 12_pca_3d.png
-    ├── anova_results.csv
-    ├── descriptive_summary.csv
-    ├── frequency_tables.csv
-    ├── pca_loadings.csv
-    └── ttest_results.csv
+├── 01_EDA_Visualization.ipynb       # Exploratory Data Analysis & visual discovery notebook
+├── 02_Statistical_Analysis.ipynb    # Descriptive, inferential stats ($t$-test/ANOVA) & PCA notebook
+├── README.md                        # Project documentation, insights & setup guide
+└── requirements.txt                 # Python dependencies for reproduction
 ```
 
 ---
@@ -105,8 +93,8 @@ ai-gut-heart-axis/
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/<your-username>/ai-gut-heart-axis.git
-   cd ai-gut-heart-axis
+   git clone https://github.com/SHIVESH89/gut-heart-axis-analysis.git
+   cd gut-heart-axis-analysis
    ```
 
 2. **Create and Activate a Virtual Environment:**
@@ -122,7 +110,7 @@ ai-gut-heart-axis/
 
 3. **Install Dependencies:**
    ```bash
-   pip install numpy pandas matplotlib seaborn scipy scikit-learn jupyter
+   pip install -r requirements.txt
    ```
 
 4. **Launch the Notebooks:**
@@ -153,5 +141,5 @@ ai-gut-heart-axis/
 ---
 
 ## 👤 Author
-Developed as part of the **AI for Gut and Heart Health** research initiative.
-Feel free to open issues or contribute to future modeling phases!
+**Shivesh** ([@SHIVESH89](https://github.com/SHIVESH89))  
+*Developed as part of the AI for Gut and Heart Health research initiative.*
