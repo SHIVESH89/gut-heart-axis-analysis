@@ -120,14 +120,7 @@ This repository contains an end-to-end data science and statistical pipeline ana
    * Open `01_EDA_Visualization.ipynb` to explore the data pipeline.
    * Open `02_Statistical_Analysis.ipynb` to view the hypothesis testing and PCA suite.
 
----
 
-## 🔮 Roadmap / Next Steps
-
-- [x] Data cleaning and exploratory visualization
-- [x] Hypothesis testing ($t$-test, ANOVA, Tukey's HSD) and PCA decomposition
-- [ ] **Phase 3 — Predictive Machine Learning:** Train supervised classifiers (Random Forest, XGBoost, Logistic Regression) to predict cardiovascular risk indicators from dietary-microbiome signatures.
-- [ ] **Phase 4 — Model Explainability:** Implement SHAP (SHapley Additive exPlanations) to isolate specific dietary drivers.
 
 ---
 
