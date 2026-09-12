@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Executive Summary
+## 📌 Summary
 
 The **Gut-Heart Axis** is one of the most critical frontiers in modern biomedical data science. Emerging medical research (*Nature Medicine, JACC*) demonstrates that gastrointestinal microbiome composition directly influences cardiovascular pathophysiology through metabolic pathways such as **Trimethylamine N-oxide (TMAO)**, systemic inflammation, and short-chain fatty acids (SCFAs).
 
